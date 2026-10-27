@@ -1,0 +1,12 @@
+[build]
+  command = "pnpm build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Serve index.html for client-side routes (react-router)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
