@@ -1,0 +1,10 @@
+{
+  "description": "Discover, search, and explore arXiv research papers with advanced filters, category browsing, trending topics, and clear paper details for researchers and students.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
